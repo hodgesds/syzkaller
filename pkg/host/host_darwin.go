@@ -8,5 +8,5 @@ import (
 )
 
 func isSupported(c *prog.Syscall, target *prog.Target, sandbox string) (bool, string) {
-	return false, ""
+	return true, ""
 }
